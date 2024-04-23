@@ -1,0 +1,30 @@
+
+				DEIXAR OS ITENS DA LISTA COM IMAGEM NO LUGAR DOS NUMEROS E ICONES 
+
+body { 
+    background-color: rgb(13, 192, 94);
+}
+
+
+ol>li {
+	margin: 0;
+	padding: 25px 0 20px 35px;
+	list-style: none;
+	background-image:url("caminhoimagem.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+    font-weight: bold;
+}
+
+ul>li {
+	margin: 0;
+	padding: 25px 0 20px 35px;
+	list-style: none;
+  background-image:url("caminhoimagem.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 30px;
+  text-decoration: underline;
+}
+
