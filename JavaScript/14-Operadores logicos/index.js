@@ -13,4 +13,4 @@ Operadores Lógicos
 // //                      True                  False
 // const vaiLogar = usuario === 'Luiz' && senha === '12345';
 
-console.log(!!true);
+console.log(!!true);p

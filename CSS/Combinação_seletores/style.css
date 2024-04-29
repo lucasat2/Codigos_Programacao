@@ -1,0 +1,22 @@
+
+/*Descendente direto*/
+header > h1 {
+color:green;
+}
+
+/*Descentente qualquer*/
+div h1 {
+color:purple;
+}
+
+/*Ou*/
+h1, h2 {
+color: orange;
+}
+
+
+/*E*/
+h1.vermelho {
+color:red;
+
+}
