@@ -1,0 +1,13 @@
+Padding - Espaço interno do elemento para o conteudo 
+Margin - espaço entre os elementos 
+border - linha em volta do elemento 
+
+o body tem sua propria margin.
+
+Cheatsheet box model ( resumo )
+
+https://hackmd.io/@CubosAcademy/cheatsheet-box-model
+
+Box model demonstration 
+
+https://codepen.io/guyroutledge/full/nOGbyO
