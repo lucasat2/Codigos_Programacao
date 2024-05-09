@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    background-image: url('https://img.freepik.com/fotos-gratis/chama-brilhante-abstrata-cai-em-ia-geradora-de-iluminacao-eletrica_188544-8092.jpg?w=360&t=st=1714594269~exp=1714594869~hmac=5895970940f93d463c185b7e087b3da9dc2718b900bcf9d2c249abf9f60bd21a'),url('https://img.freepik.com/fotos-gratis/fundo-de-textura-com-diferentes-folhas-exoticas-generativas-al_169016-28564.jpg?w=900&t=st=1714594551~exp=1714595151~hmac=b3fda89a5ece79cf36ab85f26790c691baafb949c4444d89e51a1c8c83dd04c3');
+
+    background-position:100px 300px, 500px,20px;
+    background-repeat: no-repeat;
+
+    /*background-size: 300px;*/ 
+}
+
+
+
+
+
+/*Comentarios
+/**/
+
+
+
+

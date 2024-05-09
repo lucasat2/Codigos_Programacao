@@ -1,0 +1,12 @@
+
+.btn {
+    
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 39px;
+    padding: 20px;
+    font-weight: bolder;
+    background-color: rgb(60, 213, 46);
+
+}
