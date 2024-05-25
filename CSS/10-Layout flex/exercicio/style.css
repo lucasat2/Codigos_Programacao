@@ -1,0 +1,26 @@
+
+/* Deixar o elemento pai em linha */
+
+header { 
+
+    /* Itens em linha um do lado do outro */
+    display: flex;
+
+    /* itens no inicio e fim da tela */
+    justify-content: space-between;  
+
+    /* Alinhar os itens na vertical */
+    align-items: center;
+}
+
+
+/* Deixa os elementos da ul em linha ao inves de um abaixo do outro  */
+
+ul{
+    display: flex;
+    list-style: none ;
+}
+
+li{
+    margin-left: 20px;
+}

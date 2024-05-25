@@ -1,0 +1,40 @@
+
+* { 
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+}
+
+.container { 
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: solid black;
+    padding: 40px 40px;
+    
+}
+
+.btn { 
+
+    all: unset;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top:10px;
+}
+
+.itens p{ 
+    display: inline-block;
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(91, 211, 241);
+}
