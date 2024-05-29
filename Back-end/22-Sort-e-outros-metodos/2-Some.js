@@ -20,4 +20,4 @@ console.log(maiorque5)
 
 // const resultado = numeros.some(x => Math.sqrt(x) >= 0 && Math.sqrt(x) % 1 === 0 );
 
-// console.log(resultado);
+// console.log(resultado); ///////
