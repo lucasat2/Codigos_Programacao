@@ -1,9 +1,0 @@
-Layout padrão  
-    block, 
-    inline e 
-    inline block  para ALINHAMENTO HORIZONTAL 
-
-ideal para documentos de texto 
-
-
-Imagens funcionam como Inline block apesar de serem inline 

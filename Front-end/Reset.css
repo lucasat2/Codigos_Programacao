@@ -1,0 +1,7 @@
+/* O reset é utilizado para limpar os distanciamentos padrão que os elementos já possuem*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}

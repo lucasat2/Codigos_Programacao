@@ -1,0 +1,25 @@
+envelopar: ctrl shift p  para usar recurso wrap with abreviation.
+
+Ctrl espaço : para preencher o nome do arquivo dentro da mesma pasta .
+
+tab :  para empurrar codigo pra frente
+
+Alterar varias tags ao mesmo tempo:  clicar no ponto que deseja alterar, segurar alt , selecionar todos os pontos comuns para que sejam criados varios cursores, depois apagar o que deseja e substituir.
+
+Voltar para a pasta anterior : digitar ../nome do arquivo
+
+alt+shift+ para baixo:duplica as linhas.
+
+Para criar várias tags pode multiplicar:   h1 * 4 
+
+criar uma div com uma imagem : div >img
+
+p.negrito já monta a estrutura dentro da tag html com a classe negrito em css.
+
+- * { margin: 0  padding: 0 } para remover todos os espaçamentos padrão do navegador antes de começar
+
+tag para atualizar a pagina sozinho : <meta http-equiv="refresh" content="30">
+
+mock flow para montar o projeto de um site
+
+adobe color para planejar as cores https://color.adobe.com/pt/create/color-wheel
