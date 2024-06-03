@@ -1,6 +1,5 @@
 # Back-end | Condicionais
 
-
 01. Pedra, papel ou tesoura
 02. Par ou ímpar
 03. Dominó
