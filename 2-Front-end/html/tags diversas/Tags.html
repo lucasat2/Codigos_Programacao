@@ -1,0 +1,108 @@
+<b>Negrito</b>
+<s>Strong</s>
+<i>italico</i>
+<b>Negrito</b>
+<pre>Preserva espaços em saltos/pulos de linha , textos em geral</pre>
+<del>Risco no texto</del>
+<small>Deixar um texto pequeno</small>
+<em>Enfase</em>
+<mark>Marca o texto com cor</mark>
+<del>Texto deletado</del>
+<ins>Texto inserido depois</ins>
+<u>Texto sublinhado</u>
+<sup>sobrescrito</sup>
+<sub>subscrito</sub>
+<code>formatacao para escrever codigos de programacao  - colocando dentro da tag pre, o codigo quebra linha automaticamente</code>
+<q>citacao</q>
+<abbr title="">Texto abreviado</abbr>
+<bdo dir="left"> Inverte o texto para direita ou esquerda</bdo>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  favicon , utilizar dentro do head
+<button>Fazer cadastro</button> utilizado somente dentro de formularios  
+
+=======================================================================================================================================
+PARAGRAFOS 
+
+<p align="justify">
+<p align="center">
+<p align="left">
+<p align="right">
+
+CSS DE PARAGRAFO 
+	p { text-indent: 20px; color: blue;}
+
+=======================================================================================================================================
+
+IMAGENS 
+
+<img src="" alt="" width="" height="">
+
+width é largura e heigth é altura( macete é lembrar do h na matemática)
+Ao salvar a imagem, não colocar a extensão manualmente no nome do arquivo.
+deve-se respeitar a proporcão da imagem , exemplo  800 largura x 400 , tem a razão 2 pra 1. Que é a divisão da largura para a altura. (800 por 400).
+Para não distorcer a imagem, retirar o atributo height (altura) e deixar somente a largura width.
+=======================================================================================================================================
+
+LINKS 
+
+<a href= "endereço"> Algum objeto para clicar </a> 
+
+''a'' significa anchor.
+
+O href permite abrir links e também imagens 
+
+<a href= "img/carro.jpg"> ... </a> 
+
+ Abrir arquivos
+
+<a href="Livro/10 - Ligações em toda parte.pdf" download="Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em Pdf</a>
+Obs: existem types de diversos tipos, pesquisar.
+
+
+Cercar palavras para direcionar a um site 
+
+<p>Lorem ipsum <a href="https://www.google.com">dolor</a> sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+
+
+Abrir sites externos em uma nova guia com o atributo target blank
+<a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositorio publico no GitHub</a>
+
+Links internos 
+<a href="pag002.html" rel="next" target="_self">Segunda página</a>
+
+=======================================================================================================================================
+
+TABELAS 
+
+table : tag principal 
+Table row : linha - tr
+Table data: dado que vai na linha - td
+table head : cabecalho da tabela - th
+
+<thead>Esta tag representa o cabeçalho da tabela, geralmente composta por células título;
+<tbody>corpo da tabela;
+<tfoot> rodapé da tabela.
+
+MACETE PARA CRIAR VARIAS LINHAS E TABELAS 
+tr*3>td*4
+
+
+CSS EM TABELAS
+Como tirar a borda dupla de uma tabela e deixar mais fina 
+border-collapse : collapse
+
+
+ADICIONAR PADDING DENTRO DAS CELULAS
+<style type="text/css">
+td,th{
+	padding: 5px; 
+}
+</style>
+
+
+COLSPAN E ROWSPAN
+colspan = numero de colunas que ira ocupar 
+rowspan = numero de linhas que ira ocupar
+
+=========================================================================================================================
+
