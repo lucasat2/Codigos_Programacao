@@ -40,6 +40,6 @@ body {
   font-weight: bolder;
 }
 
-div.x img {
-  margin-left: 300px;
+.x{
+  margin-left: auto;
 }
