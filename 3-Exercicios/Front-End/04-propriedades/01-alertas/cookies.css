@@ -29,7 +29,7 @@ body {
 
 }
 
-.botao > button {
+button {
   background-color: #ED6755;
   width: 160px;
   margin-top: 30px;
@@ -40,6 +40,6 @@ body {
   font-weight: bolder;
 }
 
-div.x img {
-  margin-left: 300px;
+.x { 
+  margin-left: auto;
 }
