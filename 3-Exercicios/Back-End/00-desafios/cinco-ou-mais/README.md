@@ -18,13 +18,13 @@ Imprima na tela apenas um número que representa o total que deve ser pago pelo 
 
 ---
 ### Sample Input 0
->100 500 100 200 50
+>[100, 500, 100, 200, 50]
 
 ### Sample Output 0
 >900
 ---
 ### Sample Input 1
->100 100 100 50
+>[100, 100, 100, 50]
 
 
 ### Sample Output 1
