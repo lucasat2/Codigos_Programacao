@@ -99,7 +99,7 @@
 
     /* Ocupa todo o espaço disponivel com um peso
      */
-    flex:1;
+    flex: 1;
 
     /* Mesma quantidade de elementos por linha */
     flex-basis: 30%;
@@ -131,3 +131,66 @@
   }
 
   /* ------------------------------------------------------------------------- */
+
+  /* DATA ATRIBBUTES  */
+  /* É uma forma diferente de selecionar elementos, começam com o nome data na frente e o nome que escolheu pra 
+  colocar no elemento no html  */
+
+
+  /* <h1 date-company ="GCO">Olá</h1> */
+  /* <h1 date-company>Olá</h1> */
+
+  [date-company="GCO"] {
+    color: red;
+  }
+
+  [date-company=] {
+    color: green;
+  }
+
+  /* ------------------------------------------------------------------------- */
+  /* MEDIA QUERY */
+  /* Utilizada para funcionar mediante a um comportamento da tela */
+
+  /* Computador */
+
+  @media screen and(max-width:1000px) {
+    .classe3 {
+      display: none;
+    }
+
+  }
+
+  /* Tablet */
+  @media screen and(min-width: 768px) and(max-width: 999px) {
+    .classe {
+      height: 80vh;
+    }
+  }
+
+  /* Celular */
+  @media screen and(max-width:767px) {
+    .classe2 {
+      display: none;
+    }
+
+  }
+
+  /* ------------------------------------------------------------------------- */
+  /*                   OPACITY E VISIBILITY */
+
+  /* No opacity, apesar do elemento não aparecer, é possivel clicar nele */
+  .classe {
+    opacity: 1;
+    visibility: hidden;
+  }
+
+  /* ------------------------------------------------------------------------- */
+                      /* ANIMACOES */
+
+  [data-container="produtos"]:hover {
+    background-color: aqua;
+    /* A animacao ocorrera em 200ms */
+    transition: .2s ease-in-out;
+    transform: scale(1.2);
+  }

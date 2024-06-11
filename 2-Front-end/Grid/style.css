@@ -1,0 +1,35 @@
+/* CONTEUDO APRENDIDO
+display: grid;
+
+Se movem no eixo horizontal 
+  justify-content: flex-end;
+  justify-content: flex-start;
+
+*/
+
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  background-color: blue;
+  border: 7px solid red;
+  color: white;
+  padding: 8px;
+}
+
+.box p, button {
+  font-size: 35px;
+}
+
+.boxes {
+  height: calc(100vh);
+  position: relative;
+  gap: 10px 10px;
+
+  display: grid;
+  justify-content: flex-end;
+
+}
