@@ -1,3 +1,8 @@
+
+ctrl + g vai pra linha especifica
+ctrl + tab muda de aba	
+alt + pra baixo muda o codigo de posicao
+
 envelopar: ctrl shift p  para usar recurso wrap with abreviation.
 
 Ctrl espaço : para preencher o nome do arquivo dentro da mesma pasta .
