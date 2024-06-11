@@ -1,0 +1,3 @@
+ctrl + g vai pra linha especifica
+ctrl + tab muda de aba	
+alt + pra baixo muda o codigo de posicao
