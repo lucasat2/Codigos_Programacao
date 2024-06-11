@@ -1,5 +1,0 @@
-
-
-Inputs 
-  Estilização de inputs e botões.
-    all:unset  - remove todas as propriedades pré definidas.

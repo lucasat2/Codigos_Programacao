@@ -1,0 +1,133 @@
+  /* TEXTO E FONTES  */
+  p {
+
+    text-align: center, justify, left, right;
+    text-indent: recuo de primeira linha, indentacao;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    text-decoration: none;
+    /*util para tirar a linha de um link*/
+    letter-spacing: 15px;
+    word-spacing: 15px;
+    /*Espaçamento entre palavras*/
+    line-height: 10px;
+    /*deslocamento direita, baixo ,raio de desfoque, cor*/
+    text-shadow: 2px 2px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: lighter normal bold bolder;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    /* SHORTAND */
+    font: italic bolder 3em 'Work Sans', sans-serif;
+  }
+
+  /* ------------------------------------------------------------------------- */
+
+  /* FORMAS DE USAR SELETORES */
+
+  /*Descendente direto*/
+  header>h1 {
+    color: green;
+  }
+
+  /*Descentente qualquer*/
+  div h1 {
+    color: purple;
+  }
+
+  /*Ou*/
+  h1, h2 {
+    color: orange;
+  }
+
+
+  /*E*/
+
+  h1.vermelho {
+    color: red;
+  }
+
+  /* ------------------------------------------------------------------------- */
+
+
+  /* DEIXAR UMA IMAGEM CIRCULAR  */
+
+  img {
+    border: 10px solid cyan;
+    border-radius: 50%;
+
+  }
+
+  /* ------------------------------------------------------------------------- */
+
+  /* PSEUDOSELETORES */
+  /* sao indicados pelos dois pontos ":" */
+
+  .input-container input:focus {
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.15);
+  }
+
+  button:hover {
+    background-color: rgba(49, 49, 49);
+  }
+
+  /* ------------------------------------------------------------------------- */
+  /* FLEX */
+
+  /* Mantem os itens um ao lado do outro por padrão */
+
+  conteudo {
+    /* Quebra de linha */
+    flex-wrap: wrap;
+
+    /* Alinhamentos */
+    flex-direction: column;
+    flex-direction: row;
+    flex-direction: row wrap;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
+
+    /* Ocupa todo o espaço disponivel com um peso
+     */
+    flex:1;
+
+    /* Mesma quantidade de elementos por linha */
+    flex-basis: 30%;
+
+
+    /* ------------------------------------------------------------------------- */
+    /* Espaçamento entre os elementos */
+
+    gap: 2rem 5 rem;
+    /* ------------------------------------------------------------------------- */
+  }
+
+  /* Ordenar caixas */
+
+  box {
+    order: 1;
+  }
+
+  box:nth-child(1) {
+    order: 1;
+  }
+
+  box:nth-child(2) {
+    order: 2;
+  }
+
+  box:nth-child(7) {
+    order: 3;
+  }
+
+  /* ------------------------------------------------------------------------- */
