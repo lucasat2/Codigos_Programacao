@@ -1,4 +1,5 @@
-/* CONTEUDO APRENDIDO
+/* GRID TITULO
+
 display: grid;
 
 Se movem no eixo horizontal 
@@ -33,7 +34,7 @@ p {
   display: grid;
   justify-content: flex-start;
 
-  /* Grid template */
+  
 
   /* grid-template-columns: 3fr 1fr 1fr 1fr; */
 
