@@ -4,6 +4,8 @@ display: grid;
 Se movem no eixo horizontal 
   justify-content: flex-end;
   justify-content: flex-start;
+  grid-template-rows
+  grid-template-columns
 
 */
 
@@ -28,8 +30,20 @@ p {
   height: calc(100vh);
   position: relative;
   gap: 10px 10px;
-
   display: grid;
-  justify-content: flex-end;
+  justify-content: flex-start;
+
+  /* Grid template */
+
+  /* grid-template-columns: 3fr 1fr 1fr 1fr; */
+
+  /* Shorthand 
+  3fr = 3 unidades flexiveis ocupadas */
+  /* repeat(numero de vezes e o que ) */
+  
+  grid-template-columns: 3fr repeat(3,1fr);
+
+  /* grid-template-rows: 2fr; */
+
 
 }
