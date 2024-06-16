@@ -5,3 +5,6 @@ npx create-react-app primeiro-projeto
 
 ACESSAR A PASTA 
 cd nome do projeto 
+
+INICIAR PROJETO 
+npm start
