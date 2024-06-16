@@ -1,0 +1,7 @@
+**OS COMANDOS ABAIXO ESTÃO EM ORDEM***
+
+CRIAR PROJETO 
+npx create-react-app primeiro-projeto
+
+ACESSAR A PASTA 
+cd nome do projeto 
