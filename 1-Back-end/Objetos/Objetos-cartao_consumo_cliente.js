@@ -52,7 +52,7 @@ console.log(comanda.idade);
 comanda.idade = 34;
 console.log(comanda.idade);
 
-//imprimir o nome do primriro produto consumido
+//imprimir o nome do primeiro produto consumido
 console.log(comanda.produtos[0].nome);
 
 
