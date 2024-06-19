@@ -1,1 +1,0 @@
-confirm('Realmente confirma essa opcao?');
