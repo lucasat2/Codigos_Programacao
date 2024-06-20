@@ -1,0 +1,16 @@
+Anotacoes Position e propagacao de eventos 
+
+· Static
+
+o padrão, não possui top, right, bottom, left e z-index, elemento pertence
+ao document-flow (alocando o espaço necessário)
+o utilidades: qualquer elemento
+
+· Relative
+
+possui top, right, bottom, left e z-index, elemento pertence ao
+document-flow (alocando o espaço necessário)
+é posicionado em relação a si mesmo 
+utilidades: ser referência para elementos posicionados absolutamente e
+criar quebra de design ou posicionar elementos uns em cima dos outros
+sem quebra de layout
