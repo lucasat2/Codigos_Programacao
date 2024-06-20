@@ -1,2 +1,0 @@
-npm i express 
-Criaremos nessa aula um pequeno servidor utilzado para responder requisicoes http dos clientes.

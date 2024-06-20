@@ -1,1 +1,0 @@
-let num2 = Math. round (num1) ; // arredonda automatico

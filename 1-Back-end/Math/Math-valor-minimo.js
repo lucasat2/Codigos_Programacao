@@ -1,1 +1,0 @@
-console.log(Math.min(1,2,3,4,5, -10, -50, 1500, 9, 8, 7,6) ) ; // pega o minimo valor na sequencia
