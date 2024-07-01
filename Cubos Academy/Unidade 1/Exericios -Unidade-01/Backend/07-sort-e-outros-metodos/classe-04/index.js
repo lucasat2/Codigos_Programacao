@@ -1,1 +1,0 @@
-const palavras = ['livro', 'caneta', 'sol', 'carro', 'orelha'];

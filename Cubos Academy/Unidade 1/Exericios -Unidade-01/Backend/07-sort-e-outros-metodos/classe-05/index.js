@@ -1,1 +1,0 @@
-const palavras = ["arroz", "feijão", "carne", "cerveja", "macarrão"];
